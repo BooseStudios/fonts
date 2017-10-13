@@ -1,5 +1,8 @@
 @import "https://fonts.googleapis.com/css?family=Josefin+Sans|Josefin+Slab"; /* Serif is for heading and Sans Serif is for body */
 
+/* "Google Font", Times, "Times New Roman", serif
+"Google Font", Arial, Helvetica, sans-serif */
+
 *{
     padding: 0;
     margin: 0;
@@ -8,18 +11,18 @@
 html{
     font-size: 16px;
     line-height: 1.6;
-    font-family: sans-serif;
+    font-family: "Josefin Sans", Arial, Helvetica, sans-serif;
 }
 html,body{
     background-color: #d4d4d4;
 }
 h1{
-    font-family: "Josefin Slab", serif;
+    font-family: "Josefin Slab", Times, "Times New Roman", serif;
     font-size: 3.998rem;
     padding:1rem 2rem;
 }
 h2{
-    font-family: "Josefin Slab", serif;
+    font-family: "Josefin Slab", Times, "Times New Roman", serif;
     font-size: 2.827rem;
     padding:1rem 2rem;
 }
@@ -36,7 +39,7 @@ nav li>a{
     border-bottom: 0.2rem solid black;
     padding: 0.2rem 2rem;
     color: #999;
-    font-family: "Josefin Sans", sans-serif;
+    font-family: "Josefin Sans", Arial, Helvetica, sans-serif;
 }
 nav li>a:hover,
 nav li>a:active{
@@ -45,7 +48,7 @@ nav li>a:active{
 p{
     font-size: 1.414rem;
     padding:0.5rem 2rem;
-    font-family: "Josefin Sans", sans-serif;
+    font-family: "Josefin Sans", Arial, Helvetica, sans-serif;
 }
 main p:last-child{
     padding-bottom: 4rem;
@@ -77,5 +80,5 @@ footer p{
     font-size: 1rem;
     padding: 2rem;
     color: #666;
-    font-family: "Josefin Sans", sans-serif;
+    font-family: "Josefin Sans", Arial, Helvetica, sans-serif;
 }
